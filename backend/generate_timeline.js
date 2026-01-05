@@ -15,20 +15,38 @@ const brolls = JSON.parse(
 function matchBroll(text) {
   const lower = text.toLowerCase();
 
-  if (lower.includes("hygiene") || lower.includes("safe")) {
-    return "broll_3"; // uncovered food / hygiene concern
+  // Hygiene / safety concerns
+  if (
+    lower.includes("hygiene") ||
+    lower.includes("safe") ||
+    lower.includes("gand") ||
+    lower.includes("saaf nahi")
+  ) {
+    return "broll_3";
   }
 
-  if (lower.includes("clean") || lower.includes("kitchen")) {
-    return "broll_4"; // clean kitchen
+  // Clean kitchen / preparation
+  if (
+    lower.includes("clean") ||
+    lower.includes("kitchen") ||
+    lower.includes("saaf") ||
+    lower.includes("ghar")
+  ) {
+    return "broll_4";
   }
 
-  if (lower.includes("healthy") || lower.includes("health")) {
-    return "broll_6"; // healthy closing shot
+  // Healthy lifestyle / closing
+  if (
+    lower.includes("healthy") ||
+    lower.includes("health") ||
+    lower.includes("sehat")
+  ) {
+    return "broll_6";
   }
 
   return null;
 }
+
 
 const insertions = [];
 
