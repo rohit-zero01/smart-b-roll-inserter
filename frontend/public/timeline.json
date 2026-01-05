@@ -1,0 +1,23 @@
+{
+  "a_roll_duration_sec": 40.5,
+  "insertions": [
+    {
+      "start_sec": 16.5,
+      "duration_sec": 2.5,
+      "broll_id": "broll_6",
+      "reason": "Matched visual concept for: \"Ye immediately feel nahi hota, but dheere dheere health pe effect karta hai.\""
+    },
+    {
+      "start_sec": 24,
+      "duration_sec": 2.5,
+      "broll_id": "broll_3",
+      "reason": "Matched visual concept for: \"Taste important hai, but safety usse bhi zyada.\""
+    },
+    {
+      "start_sec": 28,
+      "duration_sec": 2.5,
+      "broll_id": "broll_3",
+      "reason": "Matched visual concept for: \"Clean places choose karna, fresh food khana aur basic hygiene notice karna,\""
+    }
+  ]
+}
